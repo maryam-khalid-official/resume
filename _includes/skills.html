@@ -1,4 +1,5 @@
-{% assign skills = site.data.data.skills %} {% if skills %}
+{% assign skills = site.data.data.skills %}
+{% if skills %}
 <section class="skills-section section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -9,18 +10,75 @@
   </h2>
 
   <div class="skillset">
-    {% for skill in skills.toolset %}
     <div class="item">
-      <h3 class="level-title">{{ skill.name }}</h3>
-      {% assign skill_level = 'width: ' | append: skill.level %}
+      <h3 class="level-title">Test Automation Tools (Selenium with Python)</h3>
       <div class="level-bar">
-        <div class="level-bar-inner" style="{{skill_level}}"></div>
-      </div>
-      <!--//level-bar-->
-    </div>
-    <!--//item-->
-    {% endfor %}
-  </div>
-</section>
-<!--//skills-section-->
+        <div class="level-bar-inner" style="width: 60%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Testing Expertise (Regression, Functional, Load, UI, Cross-Browser, API, and Database Testing)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 85%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Project Management & Collaboration (JIRA, Confluence, Azure DevOps, Basecamp, Trello)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 80%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Version Control & CI/CD (Git, SVN)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 75%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Cross-Browser Testing Tools (BrowserStack)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 70%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Database Testing & Querying (SQL Server)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 80%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Web & Mobile App Testing (Android, iOS, Web-based & Desktop Applications)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 85%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Additional Tools (Postman, Zephyr, Testworthy, Figma, VPN, Acrobat, Google Tag Manager)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 75%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Methodologies (Agile - Scrum, Kanban, Test Planning, Risk & Defect Management)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 80%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+
+    <div class="item">
+      <h3 class="level-title">Soft Skills (Leadership, Client Communication, Team Collaboration, Problem Solving)</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" style="width: 85%"></div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+  </div><!--//skillset-->
+</section><!--//skills-section-->
 {% endif %}
