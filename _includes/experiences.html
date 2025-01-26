@@ -9,29 +9,100 @@
     {{ experiences.title }}
   </h2>
 
-  {% for experience in experiences.info %}
   <div class="item">
-
     <div class="meta">
-
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
+        <h3 class="job-title">Quality Assurance Team Lead</h3>
+        <div class="time">Jul 2024 – Present</div>
       </div><!--//upper-row-->
-
-      <div class="company">{{ experience.company }}</div>
-
+      <div class="company">Axelliant</div>
     </div><!--//meta-->
-
-    {% if experience.details %}
     <div class="details">
-      {{ experience.details | markdownify }}
+      <ul>
+        <li>Spearheading QA operations for web and desktop applications, ensuring 100% defect-free product deliveries.</li>
+        <li>Introduced automated regression suites, reducing manual testing efforts by 40%.</li>
+        <li>Led a team of 5 QA engineers, achieving a 30% improvement in bug detection rates through enhanced testing methodologies.</li>
+      </ul>
     </div><!--//details-->
-    {% endif %}
-
   </div><!--//item-->
-  {% endfor %}
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Project Manager & Scrum Master</h3>
+        <div class="time">Oct 2023 – Oct 2024</div>
+      </div><!--//upper-row-->
+      <div class="company">Following – Influencers Platform (Dubai, UAE)</div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>Successfully managed a social media influencer integration platform, delivering on time and aligning with client expectations.</li>
+        <li>Facilitated Agile ceremonies (sprint planning, reviews, and retrospectives), driving 15% improvements in team productivity.</li>
+        <li>Coordinated cross-functional teams, ensuring seamless communication and timely project delivery.</li>
+        <li><strong>Key Projects:</strong></li>
+        <ul>
+          <li>Social Media Influencer Integration (Website / App): Platform to connect brands with influencers to promote their products and services on social media.</li>
+        </ul>
+      </ul>
+    </div><!--//details-->
+  </div><!--//item-->
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Senior Software Quality Assurance Engineer</h3>
+        <div class="time">Aug 2021 – Oct 2023</div>
+      </div><!--//upper-row-->
+      <div class="company">10Pearls (Hybrid)</div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>Led QA for 15+ projects, including e-commerce, healthcare, and mobile app domains, resulting in a 25% increase in client satisfaction scores.</li>
+        <li>Reduced production bugs by 20% by implementing automated testing frameworks and integrating them with CI/CD pipelines.</li>
+        <li><strong>Key Projects:</strong></li>
+        <ul>
+          <li>Home Service for the Disabled: Improved usability for 10,000+ users by ensuring accessibility compliance.</li>
+          <li>BoardRoomOne: Delivered a robust cross-platform solution, including Android, iOS, desktop, and web platforms for enterprise communication.</li>
+          <li>PipelineEquity: Enhanced functionality for a website targeting workplace equity by conducting comprehensive functional and API testing.</li>
+        </ul>
+      </ul>
+    </div><!--//details-->
+  </div><!--//item-->
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Senior Software Quality Assurance Engineer</h3>
+        <div class="time">Sep 2020 – Aug 2021</div>
+      </div><!--//upper-row-->
+      <div class="company">NETSOL Technologies Inc.</div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>Delivered 100% defect-free software by leading sanity, smoke, and regression testing for high-stakes projects.</li>
+        <li><strong>Key Project:</strong></li>
+        <ul>
+          <li>Finance & Leasing Software (Mercedes-Benz, India): Optimized the financial modules, increasing system performance by 30% and ensuring compliance with local tax regulations.</li>
+        </ul>
+      </ul>
+    </div><!--//details-->
+  </div><!--//item-->
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Software Quality Assurance Engineer</h3>
+        <div class="time">Sep 2017 – Aug 2020</div>
+      </div><!--//upper-row-->
+      <div class="company">NETSOL Technologies Inc.</div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>Conducted functional and non-functional testing, reducing critical defects by 25%.</li>
+        <li>Collaborated with developers to resolve bugs, enhancing product functionality and user experience.</li>
+      </ul>
+    </div><!--//details-->
+  </div><!--//item-->
 
 </section><!--//section-->
 {% endif %}
-
